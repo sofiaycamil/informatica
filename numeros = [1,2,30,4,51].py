@@ -24,4 +24,24 @@ print (minusculas)
 
 valores=[2, 4,50,36]
 valores.append(8)
-print(valores)
+print(valores) 
+del valores [2]
+personas={
+    "personas1":{
+        "nombre":"juan",
+                 "edad": 30,
+                 "ciudad":"maadrid"
+                 },
+                 "persona2": {"nombre":"maria","edad":28,"ciudad":"barcelona"}}
+
+datos=personas^["personas1"]
+datos2=personas["personas2"]
+print(datos)
+print(datos2)
+print(datos2["edad"])
+
+#MODIFICAR UN VALOR DENTRO DEL DICCIONARIO 
+personas ["personas1"]["edad"]=40
+#ACCEDER A UN ELEMENTO 
+print(personas["personas1"]["edad"])
+#RECORRER UN DIC 
