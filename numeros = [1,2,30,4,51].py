@@ -44,4 +44,24 @@ print(datos2["edad"])
 personas ["personas1"]["edad"]=40
 #ACCEDER A UN ELEMENTO 
 print(personas["personas1"]["edad"])
-#RECORRER UN DIC 
+#RECORRER UN DICT
+for key , valve in personas.items()
+print (f"clave :{key}")
+print (f"nombre:{valve["nombre"]} , edad:{valve[edad]},ciudad {valve[ciudad]}")
+
+#funciones
+#def nombre de_la_funcion (parametro):
+#intrucciones
+def saludar (nombre):
+    print (f"hola{nombre}")
+#llamamos la funcion 
+saludar ("juan")
+saludar ("jose")
+
+def suma (a,b):
+    resultado= a+b 
+    return resultado
+nro1=int(input("ingrese el primer numero"))
+nro2=int(input("ingrese el segundo numero"))
+resultado=suma (nro1,nro2)
+print (resultado)
